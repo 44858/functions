@@ -36,4 +36,13 @@ def calculate_pay():
     
 #main program
 
+hours, pay = work_details()
+calculate_pay = 
+basic_pay = calculate_basic_pay(hours, pay)
+overtime_pay = calculate_overtime_pay(hours, pay)
+total_pay = basic_pay + overtime_pay
+
+
+
+
     
