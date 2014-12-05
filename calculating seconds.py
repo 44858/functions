@@ -23,12 +23,12 @@ def convert_minutes(minutes):
    return minutes
 
 def display_seconds(total_seconds):
-    print("The totsl number of seconds is {0}.".format(total_seconds))
+    print("The total number of seconds is {0}s.".format(total_seconds))
 
 
 #main program
 
 hours, minutes, seconds = details()
-hours = convert_hours(hours)
-minutes = convert_minutes(minutes)
-total_seconds = convert_to_seconds
+total_seconds = convert_to_seconds(hours, minutes, seconds)
+total_seconds = display_seconds(total_seconds)
+print(total_seconds)
